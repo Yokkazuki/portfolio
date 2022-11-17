@@ -43,7 +43,7 @@ export default function Navigation() {
                     <HiBars3 className="link-expand-button" size="35" onClick={() => { setMoblieMenuExpand(true) }} />
                 </div>
 
-                <div class={"moblie-nav " + (isMoblieMenuExpand ? "is-open" : "")} id="moblie-nav">
+                <div className={"moblie-nav " + (isMoblieMenuExpand ? "is-open" : "")} id="moblie-nav">
                     <FaTimes className="close-expand-btn" size="35" onClick={() => setMoblieMenuExpand(false)} />
                     <div className="moblie-linkList">
 
