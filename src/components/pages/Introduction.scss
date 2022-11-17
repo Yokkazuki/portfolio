@@ -1,0 +1,61 @@
+@import "../../theme/themeColorConfig.scss";
+
+.introduction {
+    display: flex;
+    align-items: center;
+    background-image: url("../../image/intro_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    padding: 300px 0;
+}
+
+.introduction .container {
+    margin-left: 150px;
+
+    .name {
+        font-size: 45px;
+
+        text {
+            color: $--theme-light-background-image-text;
+        }
+    }
+
+    .jobTitle {
+        font-size: 35px;
+
+        text {
+            color: $--theme-light-background-image-text;
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+
+        .text {
+            font-size: 25px;
+            width: 50%;
+        }
+
+        .image {
+            margin: auto;
+
+            img {
+                border-radius: 45%;
+                width: 150px;
+            }
+        }
+    }
+}
+
+
+#theme-light {
+    .name {
+        color: $--theme-light-title;
+    }
+
+    .description {
+        color: $--theme-light-text;
+    }
+}

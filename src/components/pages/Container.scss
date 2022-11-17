@@ -1,0 +1,33 @@
+@import "../../theme/themeColorConfig.scss";
+
+body {
+    margin: 0px;
+}
+
+.Container {
+    margin-top: 80px;
+}
+
+.header {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#theme-light {
+    .Container {
+        background-color: $--theme-light-background;
+    }
+    .header {
+        color: $--theme-light-title;
+    }
+}
+
+#theme-dark {
+    .Container {
+        background-color: $--theme-dark-background;
+    }
+    .header {
+        color: $--theme-dark-title;
+    }
+}
