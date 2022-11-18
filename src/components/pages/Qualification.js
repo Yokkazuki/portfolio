@@ -63,7 +63,7 @@ export default function Qualification() {
                 :
                 <div className="qualification-section work">
                     <ul>
-                        <li>
+                        <li className="work-card">
                             <div className="work-info">
                                 <div className="title">
                                     PastelLink
@@ -76,8 +76,13 @@ export default function Qualification() {
                                     2022 - 2022
                                 </div>
                             </div>
+                            <div className="work-detail">
+                                <div>
+                                    Developed backend by using Java and C#
+                                </div>
+                            </div>
                         </li>
-                        <li>
+                        <li className="work-card">
                             <div className="work-info">
                                 <div className="title">
                                     Quantr
@@ -88,6 +93,16 @@ export default function Qualification() {
                                 <div className="date">
                                     <BsFillCalendar3WeekFill className="cal-icon" size="20px" />
                                     2020 - 2022
+                                </div>
+                            </div>
+                            <div className="work-detail">
+                                <div>
+                                    <p>
+                                        Developed SharePoint by using React
+                                    </p>
+                                    <p>
+                                        integrated Power automate with SharePoint
+                                    </p>
                                 </div>
                             </div>
                         </li>

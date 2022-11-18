@@ -170,3 +170,38 @@
         padding-right: 5px;
     }
 }
+
+.work-card {
+
+    > div p{
+        margin-top: 10px;
+    }
+
+    .work-detail {
+        transition: opacity 0.5s ease-in-out;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+
+    .work-info {
+        transition: opacity 0.5s ease-in-out;
+        opacity: 1;
+        visibility: visible;
+        height: auto;
+    }
+
+    &:hover {
+        .work-info {
+            opacity: 0;
+            visibility: hidden;
+            height: 0;
+        }
+
+        .work-detail {
+            opacity: 1;
+            visibility: visible;
+            height: auto;
+        }
+    }
+}
