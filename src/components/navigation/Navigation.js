@@ -59,6 +59,9 @@ export default function Navigation() {
                         <a className="moblie-linkItem" href="#qualification" key="qualification" onClick={() => setMoblieMenuExpand(false)}>
                             qualification
                         </a>
+                        <a className="moblie-linkItem" href="#project" key="project" onClick={() => setMoblieMenuExpand(false)}>
+                            project
+                        </a>
                         <a className="moblie-linkItem" href="#contact" key="contact" onClick={() => setMoblieMenuExpand(false)}>
                             contact
                         </a>
