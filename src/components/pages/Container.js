@@ -5,6 +5,7 @@ import Introduction from "./Introduction"
 import Contact from "./Contact"
 import Qualification from "./Qualification"
 import AboutMe from "./AboutMe"
+import Project from "./Project"
 import { ThemeContext } from "../../theme/ThemeContext"
 
 export default function Container() {
@@ -18,6 +19,7 @@ export default function Container() {
         <Introduction />
         <AboutMe />
         <Qualification />
+        <Project />
         <Contact />
       </div>
     </div>

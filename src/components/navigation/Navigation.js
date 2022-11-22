@@ -32,6 +32,9 @@ export default function Navigation() {
                         <a className="linkItem" href="#qualification" key="qualification">
                             qualification
                         </a>
+                        <a className="linkItem" href="#project" key="project">
+                            project
+                        </a>
                         <a className="linkItem" href="#contact" key="contact">
                             contact
                         </a>

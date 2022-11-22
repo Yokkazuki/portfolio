@@ -1,0 +1,46 @@
+@import "../../theme/themeColorConfig.scss";
+
+#theme-dark {
+    .project .project-card {
+        background-color: $--theme-dark-project-background;
+        color: $--theme-dark-project-text;
+    }
+}
+
+#theme-light {
+    .project .project-card {
+        background-color: $--theme-light-project-background;
+        color: $--theme-light-project-text;
+    }
+}
+
+.project .project-list {
+    display: flex;
+}
+
+.project .project-card {
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    border-radius: 25px;
+
+    .image-container {
+        padding: 10px;
+    }
+
+    img {
+        width: 300px;
+        max-height: 150px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 25px;
+    }
+
+    .title {
+        margin: 20px auto;
+    }
+}
