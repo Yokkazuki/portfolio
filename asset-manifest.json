@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d88d10bf.css",
-    "main.js": "/portfolio/static/js/main.2316947b.js",
+    "main.js": "/portfolio/static/js/main.f393343c.js",
     "static/js/787.e8c6061e.chunk.js": "/portfolio/static/js/787.e8c6061e.chunk.js",
     "static/media/intro_background.jpg": "/portfolio/static/media/intro_background.ff3bde7d522ccd132c49.jpg",
     "static/media/redux_shopping_app_image.jpg": "/portfolio/static/media/redux_shopping_app_image.c29067d49d2ce4b55ea5.jpg",
     "index.html": "/portfolio/index.html",
     "main.d88d10bf.css.map": "/portfolio/static/css/main.d88d10bf.css.map",
-    "main.2316947b.js.map": "/portfolio/static/js/main.2316947b.js.map",
+    "main.f393343c.js.map": "/portfolio/static/js/main.f393343c.js.map",
     "787.e8c6061e.chunk.js.map": "/portfolio/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d88d10bf.css",
-    "static/js/main.2316947b.js"
+    "static/js/main.f393343c.js"
   ]
 }
