@@ -78,7 +78,12 @@ export default function Qualification() {
                             </div>
                             <div className="work-detail">
                                 <div>
-                                    Developed backend by using Java and C#
+                                    <p>
+                                        Developed SharePoint by using React
+                                    </p>
+                                    <p>
+                                        Developed backend by using Java and C#
+                                    </p>
                                 </div>
                             </div>
                         </li>
