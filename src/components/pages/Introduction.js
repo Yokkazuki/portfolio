@@ -7,14 +7,14 @@ export default function Introduction() {
 
         <div className="container">
             <div className="name">
-                <text>
+                <span>
                     Sammy Ma
-                </text>
+                </span>
             </div>
             <div className="jobTitle">
-                <text>
+                <span>
                     I am a web developer
-                </text>
+                </span>
             </div>
         </div>
     </div>

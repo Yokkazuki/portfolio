@@ -14,16 +14,16 @@ export default function Qualification() {
 
         <div className="qualification-tab">
             <div className={isDisplayEducation ? "qualification-tab-item tab-active" : "qualification-tab-item"} onClick={() => setIsDisplayEducation(true)}>
-                <text className="text">
+                <span className="text">
                     <FaUserGraduate className="qualification-icon" size="25px" />
                     Education
-                </text>
+                </span>
             </div>
             <div className={isDisplayEducation ? "qualification-tab-item" : "qualification-tab-item tab-active"} onClick={() => setIsDisplayEducation(false)}>
-                <text className="text">
+                <span className="text">
                     <BsFillBriefcaseFill className="qualification-icon" size="25px" />
                     Work
-                </text>
+                </span>
             </div>
         </div>
 
