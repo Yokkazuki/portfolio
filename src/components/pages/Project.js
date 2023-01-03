@@ -2,6 +2,7 @@ import React from "react";
 import "./Project.scss";
 import reduxShoppingAppImage from '../../image/redux_shopping_app_image.jpg';
 import vueMemorygAME from '../../image/vue_memory_game.jpg';
+import cloneIG from '../../image/clone_ig.png'
 
 export default function Project() {
 
@@ -12,6 +13,14 @@ export default function Project() {
         </div>
 
         <div className="project-list">
+            <a href="https://yokkazuki.github.io/clone-ig" target={"_blank"} rel="noreferrer">
+                <div className="project-card">
+                    <div className="image-container">
+                        <img src={cloneIG} alt="" />
+                    </div>
+                    <div className="title">Instagram (Clone)</div>
+                </div>
+            </a>
             <a href="https://yokkazuki.github.io/redux-shopping-app" target={"_blank"} rel="noreferrer">
                 <div className="project-card">
                     <div className="image-container">
