@@ -9,9 +9,9 @@ export default function AboutMe() {
 
     <div className="content">
       <div>
-        <p>I have over 2 years experience of working in SI companies.</p>
-        <p>I have over 2 years of hands-on experience of developing SharePoint online.</p>
-        <p>The previous project was developing backend by using Java and C# with a small team in PastelLink.</p>
+        <p>I have over 3 years of experience working in software development companies, specializing in front-end technologies like React and Vue.js.</p>
+
+        <p>My recent projects include developing an international SMS platform and enhancing SharePoint applications. I have collaborated closely with backend teams on API development and contributed to designing database structures.</p>
       </div>
     </div>
   </div>
