@@ -9,9 +9,7 @@ export default function AboutMe() {
 
     <div className="content">
       <div>
-        <p>I have over 3 years of experience working in software development companies, specializing in front-end technologies like React and Vue.js.</p>
-
-        <p>My recent projects include developing an international SMS platform and enhancing SharePoint applications. I have collaborated closely with backend teams on API development and contributed to designing database structures.</p>
+        <p>I am a skilled frontend developer with experience in building user-focused applications using Vue.js and React. I’m known for quickly adapting to new technologies and delivering high-quality solutions across multiple projects. With a strong focus on performance optimization and enhancing user experiences, I am committed to meeting business goals and deadlines while continuously improving my skills.</p>
       </div>
     </div>
   </div>
