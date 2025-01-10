@@ -173,36 +173,31 @@
 
 .work-card {
     min-height: 125px;
-
-    > div p{
+    transition: all 0.5s ease;
+    
+    > div p {
         margin-top: 10px;
     }
 
     .work-detail {
-        transition: opacity 0.5s ease-in-out;
+        transition: max-height 0.5s ease, opacity 0.5s ease-in-out, visibility 0.5s ease;
         opacity: 0;
         visibility: hidden;
-        height: 0;
+        max-height: 0;
+        overflow: hidden;
     }
 
     .work-info {
-        transition: opacity 0.5s ease-in-out;
+        transition: opacity 0.5s ease-in-out, visibility 0.5s ease;
         opacity: 1;
         visibility: visible;
-        height: auto;
     }
 
     &:hover {
-        .work-info {
-            opacity: 0;
-            visibility: hidden;
-            height: 0;
-        }
-
         .work-detail {
             opacity: 1;
             visibility: visible;
-            height: auto;
+            max-height: 1000px;
         }
     }
 }

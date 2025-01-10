@@ -26,24 +26,24 @@ const jobs = [
             'Collaborate with the backend team on API development',
             'Create solutions guided by the insights of the product team and design team'
         ],
-        duration: '2023 - present'
+        duration: '2023 - 2024'
     },
     {
         title: 'Analyst Programmer',
         company: 'PastelLink',
         content: [
-            'Developed SharePoint by using React',
-            'Involve designing a backend database structure using UML'
+            'Engineered advanced SharePoint applications using React, improving user efficiency and workflow.',
+            'Designed and documented backend database structures using UML, streamlining development and maintenance.'
         ],
-        duration: '2022 - 2022'
+        duration: '2022'
     },
     {
         title: 'Programmer',
         company: 'Quantr',
         content: [
-            'Developed SharePoint by using React',
-            'Integrated Power automate with SharePoint',
-            'Engaged in discussions with clients to develop solutions'
+            'Developed and customized SharePoint solutions using React to meet diverse client requirements',
+            'Integrated Power Automate workflows with SharePoint to automate processes and improve productivity.',
+            'Collaborated with clients to understand requirements and deliver tailored technical solutions.'
         ],
         duration: '2020 - 2022'
     },
