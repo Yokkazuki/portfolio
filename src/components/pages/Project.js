@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Vue Memory game",
     img: vueMemoryGame,
-    url: "https://yokkazuki.github.io/vue-memory-game",
+    url: "https://ykzk-vue-memory-game.vercel.app/",
   },
 ];
 
