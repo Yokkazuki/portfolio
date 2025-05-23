@@ -10,11 +10,11 @@ const projects = [
     img: shoppingApp,
     url: "https://ykzk-wannagoods.vercel.app/",
   },
-  {
-    title: "Simple Social Media",
-    img: smMedia,
-    url: "https://ykzk-nextjs-social-media.vercel.app/",
-  },
+  // {
+  //   title: "Simple Social Media",
+  //   img: smMedia,
+  //   url: "https://ykzk-nextjs-social-media.vercel.app/",
+  // },
   {
     title: "Vue Memory game",
     img: vueMemoryGame,
